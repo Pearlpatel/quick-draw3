@@ -1,0 +1,40 @@
+body{
+    background-color: #5E78C2;
+}
+button{
+    background-color: #E8EFFF;
+   color:black;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: black;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+}
+label{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin: 10px;
+}
+#timer{
+    float: right;
+}
+#score_label{
+    float: left;
+}
+canvas{
+    margin-top:90px;
+    border: black;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow:5px 5px 30px blue;}
+    to{box-shadow: 5px 5px 30px white;}
+}
